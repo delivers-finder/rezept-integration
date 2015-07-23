@@ -11,6 +11,9 @@ $( document ).ready(function() {
       closetransitionend : function() {
         $('.shop-login-form').hide()
         $('.receipe').show()
+      },
+      opentransitionend: function() {
+        evaluateCheckboxes();
       }
     }
   );
@@ -55,4 +58,19 @@ $( document ).ready(function() {
     $('.account-login-inputs').show()
     $('.account-register-inputs').hide()
   })
+
+  function evaluateCheckboxes() {
+    $('td:nth-child(2)').children().each(function(){
+      if (!($(this).is(":checked"))) {
+        $(this).parent().nextAll().css('opacity', '0.5')
+      } else {
+        $(this).parent().nextAll().css('opacity', '1.0')
+      }
+    })
+  }
+
+  $('input').click(function(){
+    evaluateCheckboxes();
+  });
+
 });
