@@ -27,6 +27,24 @@ body {
   text-decoration: none !important;
 }
 
+.call2action-small-button {
+  height: 35px;
+  padding: 0px 15px 0px 15px;
+  font-size: 14px;
+  background-color: #e1412d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #de3f2b), color-stop(100%, #d33c29));
+  background-image: -webkit-linear-gradient(#de3f2b, #d33c29);
+  background-image: linear-gradient(#de3f2b, #d33c29);
+  color: #fff !important;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px 0px #a2a2a2;
+  font-family: "Lato",sans-serif;
+  text-decoration: none !important;
+}
+
 .divider {
   border-top: 1px solid #e0e0e0 !important;
   border-bottom: 1px solid #e0e0e0 !important;
@@ -92,7 +110,26 @@ body {
   padding: 40px 40px;
   border: 1px solid #e0e0e0 ;
   color:#5D5F58;
+  width: 730px;
+  height: 690px;
 }
+
+#tooltip {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e0e0e0 ;
+  color:#5D5F58;
+  margin-top: 10px;
+}
+
+#tooltip2 {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #e0e0e0 ;
+  color:#5D5F58;
+  margin-right: 10px;
+}
+
 
 .overlay-box-close{
   position: absolute;
@@ -131,10 +168,8 @@ table {
 .table-footer {
   text-align: right;
 }
-td {
-  padding-top:5px;
-  padding-bottom:5px;
-}
+
+
 td.img > img {
   height: 25px;
   margin: 0 20px;
@@ -152,10 +187,6 @@ td:nth-child(2) {
   text-align: center;
   width: 20%;
 }
-
-td:first-child{
-}
-
 
 
 tr {
@@ -176,4 +207,71 @@ tr:last-child, tr:first-child {
 .by-simplora > img {
   height: 20px;
   vertical-align: bottom
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float:right;
+}
+
+.shop-form-data {
+  margin: 10px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  width: 315px;
+  padding: 20px 15px;
+  background: #f8f8f8;
+}
+
+.shop-form-title {
+  margin-bottom: 10px;
+}
+
+.shop-form input {
+  margin-right: 6px;
+}
+.overlay-forms input {
+  float: left;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, .ms-choice {
+  margin-bottom: 10px;
+  outline-color: #32a096;
+  background: white;
+}
+textarea, input[type="text"], input[type="email"], input[type="password"], select, .ms-choice>span, .ms-choice>div {
+  padding: 5px 0px 3px 10px !important;
+}
+textarea, input[type="text"], input[type="email"], input[type="password"], select, .ms-choice {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  border: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+}
+.input-full {
+  width: 240px;
+}
+
+.shop-secondary-box a, .overlay-container a, .shop-secondary-box label.forgot-password, .overlay-container label.forgot-password {
+  color: #3c3c3b;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.account-info > img {
+  vertical-align: middle;
+  margin: 10px 0;
+}
+
+.password-reset {
+  color:#5D5F58;
+  font-size: 12px;
+}
+
+a {
+  color:#5D5F58;
 }
