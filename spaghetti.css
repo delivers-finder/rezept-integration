@@ -107,10 +107,10 @@ body {
 
 #my_popup {
   background-color: white;
-  padding: 40px 40px;
+  padding: 40px 40px 20px 40px;
   border: 1px solid #e0e0e0 ;
   color:#5D5F58;
-  width: 730px;
+  width: 760px;
   height: 690px;
 }
 
